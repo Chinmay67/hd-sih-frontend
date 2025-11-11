@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         try {
             // Send POST request to backend
-            const response = await fetch('https://yashjainme-hd-sih-backend.hf.space/predict-price', {
+            const response = await fetch('https://hd-sih-backend.alvarezxc.hf.space/predict-price', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -44,4 +44,5 @@ document.addEventListener('DOMContentLoaded', function() {
             resultDiv.style.display = 'block'; // Show the result section even if there is an error
         }
     });
+
 });
