@@ -56,7 +56,7 @@ function sendMessage() {
         document.getElementById("loading").style.display = "block";
 
         // Send request to Flask backend
-        fetch("https://yashjainme-hd-sih-backend.hf.space/get_response", {
+        fetch("https://hd-sih-backend.alvarezxc.hf.space/get_response", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -98,4 +98,5 @@ function addMessageToChat(role, text, className) {
 
     // Scroll chat box to the bottom
     chatBox.scrollTop = chatBox.scrollHeight;
+
 }
