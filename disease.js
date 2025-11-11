@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formData.append('city', cityInput.value.trim());
 
         try {
-            const response = await fetch('https://yashjainme-hd-sih-backend.hf.space/combined_risk/', {
+            const response = await fetch('https://hd-sih-backend.alvarezxc.hf.space/combined_risk/', {
                 method: 'POST',
                 body: formData
             });
@@ -117,4 +117,5 @@ document.addEventListener('DOMContentLoaded', () => {
             predictionDiv.innerHTML = `<p>Error: ${error.message}</p>`;
         }
     });
+
 });
