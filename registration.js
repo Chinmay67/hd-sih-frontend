@@ -19,7 +19,7 @@ function signup(event) {
     };
 
     // Send a POST request to the backend with the form data
-    fetch('https://hd-sih-forum.onrender.com/api/users/register', { // Replace this with your actual backend URL
+    fetch('https://hd-sih-forum-de6q.onrender.com/api/users/register', { // Replace this with your actual backend URL
         method: 'POST', // HTTP method
         headers: {
             'Content-Type': 'application/json' // Sending the data as JSON
@@ -41,3 +41,4 @@ function signup(event) {
 
 // Attach the function to the form submission event
 document.querySelector('form').addEventListener('submit', signup);
+
