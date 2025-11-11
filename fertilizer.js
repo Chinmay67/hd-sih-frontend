@@ -29,7 +29,7 @@ document.getElementById('predict').addEventListener('click', async () => {
 
   try {
       // Make POST request to backend API
-      const response = await fetch('https://hd-sih-backend.alvarezxc.hf.space/predict-fertilizer', {
+      const response = await fetch('https://alvarezxc-hd-sih-backend.hf.space/predict-fertilizer', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
@@ -58,4 +58,5 @@ document.getElementById('predict').addEventListener('click', async () => {
       document.getElementById('fertilizer-output').textContent = 'An error occurred. Please try again later.';
   }
 });
+
 
