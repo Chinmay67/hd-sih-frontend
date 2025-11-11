@@ -43,7 +43,7 @@ function login(event) {
     };
 
     // Send a POST request to the backend with the login data
-    fetch('https://hd-sih-forum.onrender.com/api/users/login', { // Replace with your backend URL
+    fetch('https://hd-sih-forum-de6q.onrender.com/api/users/login', { // Replace with your backend URL
         method: 'POST', 
         credentials:"include" ,// HTTP method for login
         headers: {
@@ -75,3 +75,4 @@ function login(event) {
 
     return false; // Prevent form from submitting the default way
 }
+
