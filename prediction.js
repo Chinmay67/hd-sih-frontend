@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         // Send a POST request to the backend
-        fetch('https://hd-sih-backend.alvarezxc.hf.space/predict-yield', {
+        fetch('https://alvarezxc-hd-sih-backend.hf.space/predict-yield', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -105,4 +105,5 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
 
