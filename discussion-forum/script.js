@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch discussions from the backend API
-    fetch('https://hd-sih-forum.onrender.com/api/discussions/get-discussions', {
+    fetch('https://hd-sih-forum-de6q.onrender.com/api/discussions/get-discussions', {
         credentials: "include"
     })
     .then(response => response.json())
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Submitting form', { title, content });
 
         // Send a POST request to the backend to create a new discussion
-        fetch('https://hd-sih-forum.onrender.com/api/discussions/create-discussion', {
+        fetch('https://hd-sih-forum-de6q.onrender.com/api/discussions/create-discussion', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -104,3 +104,4 @@ function displayDiscussions(discussions) {
         appendNewDiscussion(discussion);
     });
 }
+
